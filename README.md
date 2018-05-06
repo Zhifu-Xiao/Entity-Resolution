@@ -1,10 +1,10 @@
-## CSDS: Entity Resolution Assignment
-### Author: Zhifu Xiao (zx2201@columbia.edu)
+## Entity Resolution
+### Author: Zhifu Xiao
 ### Date: 03/25/2017
 
 ## Introduction
 
-In this assignment, the input data are two datasets from Amazon and RottenTomato describing some features of movies, and the task is to examine whether two entries from each dataset are the same or not, which is also known as the entity resolution problem. After doing data preprocessing, generate training and test set and apply classifiers, the program could output the predicted value in the test set and holdout set. Overall, the program gives an F1 score of 0.9625 on the test set. In the next several chapters I will describe the detailed processes in each step.
+In this project, the input data are two datasets from Amazon and RottenTomato describing some features of movies, and the task is to examine whether two entries from each dataset are the same or not, which is also known as the entity resolution problem. After doing data preprocessing, generate training and test set and apply classifiers, the program could output the predicted value in the test set and holdout set. Overall, the program gives an F1 score of 0.9625 on the test set. In the next several chapters I will describe the detailed processes in each step.
 
 ### Data pre-processing
 
