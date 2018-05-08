@@ -26,7 +26,7 @@ After generating training and test set, I used Robust scalar and AdaBoosting cla
 
 **1. Describe your entity resolution technique, as well as its precision, recall, and F1 score.**
 
-** Answer: ** I explained the technique in the several previous sections, and the precision, recall, and F1 score are listed below.
+**Answer:** I explained the technique in the several previous sections, and the precision, recall, and F1 score are listed below.
 
 | Label | Precision | Recall | F1 Score | Support |
 |-------|-----------|--------|----------|---------|
@@ -35,13 +35,13 @@ After generating training and test set, I used Robust scalar and AdaBoosting cla
 
 From the results, we could see that precision, recall and F1 Score are high and I believe that the result is convincing.
 
-** 2. What were the most important features that powered your technique?**
+**2. What were the most important features that powered your technique?**
 
-** Answer: **  From the results, we could say that there are only three features, and all of them are important in the model, and the first two are probably more important: there are some examples that all of the three features are matched, and most of them are the same movie. However, there are more examples that the two out of three mostly match: movie length and director name, and by AdaBoosting technique, the model will favor the ordinary examples and enhanced by iterations.
+**Answer:**  From the results, we could say that there are only three features, and all of them are important in the model, and the first two are probably more important: there are some examples that all of the three features are matched, and most of them are the same movie. However, there are more examples that the two out of three mostly match: movie length and director name, and by AdaBoosting technique, the model will favor the ordinary examples and enhanced by iterations.
 
-** 3. How did you avoid pairwise comparison of all movies across both datasets?** 
+**3. How did you avoid pairwise comparison of all movies across both datasets?** 
 
-** Answer: ** In this assignment, I didn't use the original datasets as the training datasets; on the other hand, I extracted the features in the two original datasets and generated the training dataset by the index number in the file. By doing that, I avoided using the 5000 rows dataset and make the pairwise comparison of all movies across both datasets. Instead, the new training dataset only has the same rows as the training index file, which is around 250 rows. The computational complexity and running time are greatly reduced and could generate the predicted result much faster.
+**Answer:** In this assignment, I didn't use the original datasets as the training datasets; on the other hand, I extracted the features in the two original datasets and generated the training dataset by the index number in the file. By doing that, I avoided using the 5000 rows dataset and make the pairwise comparison of all movies across both datasets. Instead, the new training dataset only has the same rows as the training index file, which is around 250 rows. The computational complexity and running time are greatly reduced and could generate the predicted result much faster.
 
 ## Reference and note
 
